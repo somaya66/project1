@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color:#ffffff;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+  }
+  #header{
+      display: inline-block;
+      background-color: rgba(0,0,0,0.8);
+      width: 100%;
+      line-height: 2.8;
+      cursor: pointer;
+  }
+  #header a{
+      padding: 0px 37px;
+      font-size: 14px;
+      text-decoration: none;
+      color: white;
+      font-family: "Arial";
+      cursor: pointer;
+  }
+
+
+  section {
+    margin: 5px;
+}
+  .project {
+    width: 300PX;
+    height: 500PX;
+    border: 3px solid #ccc;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  img {
+    margin-top: 20px;
+}
+button {
+  animation: wiggle 2s linear infinite;
+}
+
+
+
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+
+button {
+ 
+ 
+  
+  height: 4em;
+  width: 7em;
+  
+  background: #a7a2a2;
+ 
+  border: none;
+ 
+margin-bottom: 20px;
+  color: #fff;
+
+ 
+}
+
+
+
